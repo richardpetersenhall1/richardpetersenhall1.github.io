@@ -1,0 +1,10 @@
+<html>
+<head>
+{% if jekyll.environment == 'production' %}
+{% include tag-manager-header.html %}
+{% endif %}
+</head>
+<body>
+{% if jekyll.environment == 'production' %}
+{% include tag-manager-body.html %}
+{% endif %}
